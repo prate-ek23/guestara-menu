@@ -1,0 +1,222 @@
+ [
+    {
+      "subcategory_id": "SUBCAT001",
+      "category_id": "CAT001",
+      "category_name": "North Indian",
+      "name": "Curries & Gravies",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a19fb6930b?w=500",
+      "description": "Rich and aromatic curries with traditional spices",
+      "taxApplicability": true,
+      "tax": 5,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT002",
+      "category_id": "CAT001",
+      "category_name": "North Indian",
+      "name": "Breads",
+      "image": "https://images.unsplash.com/photo-1585421514677-6f9c8db1a14f?w=500",
+      "description": "Tandoori and traditional Indian breads",
+      "taxApplicability": true,
+      "tax": 5,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT003",
+      "category_id": "CAT001",
+      "category_name": "North Indian",
+      "name": "Tandoori",
+      "image": "https://images.unsplash.com/photo-1606787620536-d0c1f1ca9dca?w=500",
+      "description": "Marinated and tandoor-cooked specialties",
+      "taxApplicability": true,
+      "tax": 5,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT004",
+      "category_id": "CAT002",
+      "category_name": "South Indian",
+      "name": "Dosa & Uttapam",
+      "image": "https://images.unsplash.com/photo-1568124497191-a913bb7e86d5?w=500",
+      "description": "Crispy dosas and thick pancakes with chutneys",
+      "taxApplicability": false,
+      "tax": null,
+      "taxType": null
+    },
+    {
+      "subcategory_id": "SUBCAT005",
+      "category_id": "CAT002",
+      "category_name": "South Indian",
+      "name": "Idli & Vada",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a19fb6930b?w=500",
+      "description": "Steamed idlis and deep-fried vadas",
+      "taxApplicability": false,
+      "tax": null,
+      "taxType": null
+    },
+    {
+      "subcategory_id": "SUBCAT006",
+      "category_id": "CAT002",
+      "category_name": "South Indian",
+      "name": "Rice Dishes",
+      "image": "https://images.unsplash.com/photo-1609501676725-7186f017a4b9?w=500",
+      "description": "Biryani, pulao, and traditional rice preparations",
+      "taxApplicability": false,
+      "tax": null,
+      "taxType": null
+    },
+    {
+      "subcategory_id": "SUBCAT007",
+      "category_id": "CAT003",
+      "category_name": "Chinese",
+      "name": "Noodles",
+      "image": "https://images.unsplash.com/photo-1569718150521-bc8022784b33?w=500",
+      "description": "Hakka, schezwan, and stir-fried noodles",
+      "taxApplicability": true,
+      "tax": 12,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT008",
+      "category_id": "CAT003",
+      "category_name": "Chinese",
+      "name": "Rice Preparations",
+      "image": "https://images.unsplash.com/photo-1609501676725-7186f017a4b9?w=500",
+      "description": "Fried rice, egg rice, and special preparations",
+      "taxApplicability": true,
+      "tax": 12,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT009",
+      "category_id": "CAT003",
+      "category_name": "Chinese",
+      "name": "Manchurian & Gravies",
+      "image": "https://images.unsplash.com/photo-1585937421612-70a19fb6930b?w=500",
+      "description": "Manchurian gravy dishes and saucy preparations",
+      "taxApplicability": true,
+      "tax": 12,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT010",
+      "category_id": "CAT004",
+      "category_name": "Continental",
+      "name": "Steaks & Grills",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561404?w=500",
+      "description": "Premium steaks and grilled specialties",
+      "taxApplicability": true,
+      "tax": 18,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT011",
+      "category_id": "CAT004",
+      "category_name": "Continental",
+      "name": "Pasta & Risotto",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500",
+      "description": "Italian pasta and creamy risotto preparations",
+      "taxApplicability": true,
+      "tax": 18,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT012",
+      "category_id": "CAT004",
+      "category_name": "Continental",
+      "name": "Seafood",
+      "image": "https://images.unsplash.com/photo-1615141207739-0382881314d4?w=500",
+      "description": "Fish, prawns, and seafood specialties",
+      "taxApplicability": true,
+      "tax": 18,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT013",
+      "category_id": "CAT005",
+      "category_name": "Italian",
+      "name": "Pasta Dishes",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500",
+      "description": "Traditional Italian pasta with various sauces",
+      "taxApplicability": false,
+      "tax": null,
+      "taxType": null
+    },
+    {
+      "subcategory_id": "SUBCAT014",
+      "category_id": "CAT005",
+      "category_name": "Italian",
+      "name": "Pizza",
+      "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=500",
+      "description": "Authentic wood-fired and oven-baked pizzas",
+      "taxApplicability": false,
+      "tax": null,
+      "taxType": null
+    },
+    {
+      "subcategory_id": "SUBCAT015",
+      "category_id": "CAT006",
+      "category_name": "Thai",
+      "name": "Curries",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500",
+      "description": "Green, red, yellow, and panang curries",
+      "taxApplicability": true,
+      "tax": 12,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT016",
+      "category_id": "CAT006",
+      "category_name": "Thai",
+      "name": "Salads & Soups",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500",
+      "description": "Fresh salads and aromatic Thai soups",
+      "taxApplicability": true,
+      "tax": 12,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT017",
+      "category_id": "CAT007",
+      "category_name": "Mexican",
+      "name": "Tacos & Burritos",
+      "image": "https://images.unsplash.com/photo-1565958011504-98d342d511c3?w=500",
+      "description": "Authentic tacos, burritos, and wraps",
+      "taxApplicability": true,
+      "tax": 15,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT018",
+      "category_id": "CAT008",
+      "category_name": "Japanese",
+      "name": "Sushi & Rolls",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=500",
+      "description": "Fresh sushi, nigiri, and specialty rolls",
+      "taxApplicability": false,
+      "tax": null,
+      "taxType": null
+    },
+    {
+      "subcategory_id": "SUBCAT019",
+      "category_id": "CAT009",
+      "category_name": "Seafood",
+      "name": "Grilled Fish",
+      "image": "https://images.unsplash.com/photo-1615141207739-0382881314d4?w=500",
+      "description": "Grilled and tandoori fish preparations",
+      "taxApplicability": true,
+      "tax": 12,
+      "taxType": "GST"
+    },
+    {
+      "subcategory_id": "SUBCAT020",
+      "category_id": "CAT010",
+      "category_name": "Vegetarian",
+      "name": "Paneer Dishes",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500",
+      "description": "Paneer tikka, butter paneer, and specialties",
+      "taxApplicability": false,
+      "tax": null,
+      "taxType": null
+    }
+  ]
