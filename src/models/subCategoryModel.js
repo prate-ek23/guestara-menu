@@ -15,17 +15,19 @@ const SubCategorySchema = new mongoose.Schema({
   // },
   category_id: {
     type: String,
-    required: [true, 'An item must have a category id'],
+    required: [true, 'A sub-category must have a category id'],
+    // unique: true,
   },
-  
+
   category_name: {
     type: String,
-    required: [true, 'An item must have a category name'],
+    required: [true, 'A sub-category must have a category name'],
+    // unique: true,
   },
 
   description: {
     type: String,
-    required: [true, 'An item must have a description'],
+    required: [true, 'A sub-category must have a description'],
     trim: true,
   },
 

@@ -60,7 +60,7 @@ exports.createNewItem = async (req, res) => {
 exports.updateItem = async (req, res) => {
   try {
     const updatedItem = await Item.findByIdAndUpdate(
-      req.params.ItemID,
+      req.params.itemID,
       req.body,
       { new: true, runValidators: true }
     );

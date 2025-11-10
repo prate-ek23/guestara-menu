@@ -6,11 +6,7 @@ const itemSchema = new mongoose.Schema({
     required: [true, 'An item must have a name'],
     unique: true,
   },
-  price: {
-    type: Number,
-    required: [false, 'An item must have a price'],
-  },
-
+  
   description: String,
   image: String,
   // Image: URL,
@@ -40,21 +36,25 @@ const itemSchema = new mongoose.Schema({
   category_id: {
     type: String,
     required: [true, 'An item must have a category id'],
+    // unqiue: true,
   },
 
   category_name: {
     type: String,
     required: [true, 'An item must have a category name'],
+    // unqiue: true,
   },
 
   subcategory_id: {
     type: String,
     required: [true, 'An item must have a sub-category id'],
+    // unqiue: true,
   },
 
   subcategory_name: {
     type: String,
     required: [true, 'An item must have a sub-category name'],
+    // unqiue: true,
   },
   discount: Number,
 
@@ -62,6 +62,7 @@ const itemSchema = new mongoose.Schema({
     type: Number,
     required: [true, 'An item must have a base amount'],
   },
+  
   total_amount: {
     type: Number,
     required: [true, 'An item must have a total amount'],

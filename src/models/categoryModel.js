@@ -27,7 +27,11 @@ const CategorySchema = new mongoose.Schema({
     required: true,
   },
 
-  category_id: String,
+  category_id: {
+    type: String,
+    required: true,
+    unique: true,
+  },
 
   tax: {
     //if applicable
